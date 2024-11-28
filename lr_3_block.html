@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>
+      lr_3_block
+    </title>
+  </head>
+  <style>
+    body {
+	font-family: Calibri;
+	}
+    .menu {
+	background: LightGrey;
+	padding: 5px;
+	font-size: 20px;
+	text-align: right;
+	white-space: nowrap;
+	width: 100%;
+	}
+	.menu_block {
+	display: inline-block;
+	float: left;
+	vertical-align: middle;
+	padding: 5px;
+	}
+	.menu_block-link {
+	display: inline-block;
+	font-size: 20px;
+	padding: 5px;
+	margin: auto;
+	vertical-align: middle;
+	}
+	.menu_block-link a {
+	background: grey;
+	padding: 5px;
+	color: white;
+	text-decoration: none;
+	}
+	.menu_block-link .mainmenu {
+	background: black;
+	}
+	
+	.pics {
+	padding: 5px;
+	width: 80%;
+	margin: 5px auto;
+	text-align: center;
+	}
+	.pic {
+	display: inline-block;
+	width: 31.8%;
+	height: 125px;
+	}
+	.pics :first-child {
+	width: 96%;
+	height: 375px;
+	}
+	
+	.logos {
+  padding: 5px;
+  width: 60%;
+  margin: auto;
+  }
+  .logo {
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+  width: 24%;
+  overflow: auto;
+  }
+  .logo img {
+  width: 60%;
+  margin: auto;
+  }
+  .logo p {
+  text-align: center;
+  font-size: 0.8em;
+  }
+  
+  .pics_with_text {
+  border: solid thin grey;
+  width: 70%;
+  margin: 5px auto;
+  padding: 5px;
+  overflow: hidden;
+}
+
+.pics_with_text img {
+  width: 25%;
+  float: left;
+  max-width: 100%;
+  height: auto;
+}
+
+.pics_with_text:nth-child(even) img {
+  width: 25%;
+  float: right;
+  max-width: 100%;
+  height: auto;
+}
+
+.pics_with_text > div {
+  display: inline-block;
+  width: 70%;
+  text-align: center;
+  vertical-align: top;
+}
+
+footer {
+  background-color: grey;
+  width: 100%;
+  overflow: auto;
+}
+
+footer > div {
+  display: inline-block;
+  padding: 5px;
+  vertical-align: middle;
+}
+
+footer > div:first-child {
+  float: left;
+}
+
+footer > div:last-child {
+  float: right;
+}
+    </style>
+  <body>
+    <div class="menu">
+      <div class="menu_block">Фильмы</div>
+      <div class="menu_block-link"><a href="lr_3_block.html" class="mainmenu">Лучшие фильмы</a></div>
+	  <div class="menu_block-link"><a href="lr_2_3.html">Лучшие по рейтингу</a></div>
+	  <div class="menu_block-link"><a href="#">Худшие фильмы</a></div>
+	  <div class="menu_block-link"><a href="#">Худшие по рейтингу</a></div>
+	  </div>
+	
+	<div class="pics">
+	<img src="600x900.webp" class="pic">
+	<img src="220x330.webp" class="pic">
+	<img src="Тёмный_рыцарь_(2008)_постер.jpg" class="pic">
+	<img src="gf2.webp" class="pic">
+	  </div>
+	
+	<div class="logos">
+    <div class="logo">
+        <img src="12_Angry_Men_logo.jpg">
+        <p>12 разгневанных мужчин» (англ. 12 Angry Men) — юридическая драма 1957 года, режиссёрский дебют Сидни Люмета.</p>
+    </div>
+    <div class="logo">
+        <img src="vk_logo.webp">
+        <p>«Властели́н коле́ц: Возвраще́ние короля́» (англ. The Lord of the Rings: The Return of the King) — эпический приключенческий фильм в жанре эпического фэнтези 2003 года, снятый режиссёром Питером Джексоном.</p>
+    </div>
+    <div class="logo">
+        <img src="Schindler's_List_movie_logo.jpg">
+        <p>«Спи́сок Ши́ндлера» (англ. Schindler's List) — американская эпическая историческая драма 1993 года, снятая Стивеном Спилбергом по роману Томаса Кенилли «Ковчег Шиндлера».</p>
+    </div>
+    <div class="logo">
+        <img src="pulpfiction_logo.webp">
+        <p>«Кримина́льное чти́во» (англ. Pulp Fiction — «Бульварное чтиво») — культовый кинофильм режиссёра Квентина Тарантино. Сюжет фильма построен нелинейно, как и в большинстве других работ Тарантино.</p>
+    </div>
+	</div>
+	  
+	<div class="pics_with_text">
+	  <div>
+	  <h3>«Властели́н коле́ц: Братство кольца»</h3>
+	  <p>
+	  «Властели́н коле́ц: Бра́тство Кольца́» (англ. The Lord of the Rings: The Fellowship of the Ring) — эпический приключенческий фильм в жанре эпического фэнтези 2001 года, 
+	  седьмой полнометражный фильм, снятый режиссёром Питером Джексоном.
+	  Действие фильма происходит в Средиземье. 
+	  История повествует о Тёмном Властелине Сауроне, который ищет Кольцо Всевластья, в котором заключена часть его могущества, чтобы вернуть себе власть. 
+	  Кольцо нашло свой путь к молодому хоббиту Фродо Бэггинсу. 
+	  Судьба Средиземья висит на волоске, когда Фродо и восемь его спутников (которые образуют Братство Кольца) начинают своё опасное путешествие к Роковой горе в земле Мордор, 
+	  единственном месте, где Кольцо может быть уничтожено. 
+	  Фильм Властелин колец: Братство Кольца финансировался и распространялся американской студией New Line Cinema, но снималось и монтировалось 
+	  полностью в родной Новой Зеландии Джексона, одновременно с двумя другими частями трилогии.
+	  </p>
+	  </div>
+	  <img src="The_Fellowship_of_the_Ring.jpg">
+	  </div>
+	  
+	<div class="pics_with_text">
+	  <img src="The_good,_the_bad_and_the_ugly.webp">
+	  <div>
+	  <h3>«Хороший, плохой, злой»</h3>
+	  <p>
+	  «Хоро́ший, плохо́й, злой» (итал. Il buono, il brutto, il cattivo; англ. The Good, the Bad and the Ugly) — спагетти-вестерн Серджо Леоне, завершающий «долларовую трилогию». 
+	  Главные роли исполнили Клинт Иствуд, Илай Уоллак и Ли Ван Клиф. Съёмки картины прошли в 1966 году в Италии и Испании.
+	  Фильм был успешен как в итальянском, так и американском прокате. В 2003 году вышла восстановленная и переозвученная версия на цифровых носителях.
+	  По времени действия фильм является приквелом к предыдущим картинам трилогии. 
+	  Сюжет повествует о трёх охотниках за потерянным золотом конфедератов во времена Гражданской войны в США.
+	  Сразу после выхода на экраны картина получила в целом негативную оценку критики. 
+	  Специалисты отрицательно отнеслись к чрезмерному насилию, двойной морали и спорному монтажу. 
+	  Картина практически не была замечена на фестивалях из-за несколько предвзятого отношения к спагетти-вестернам как к вторичному и эксплуатационному кино. 
+	  С середины 1980-х годов мнение критики постепенно изменилось, и картина стала признаваться одной из лучших работ в истории жанра. 
+	  Роджер Эберт поставил ей высшую оценку и назвал картину шедевром кинематографа. 
+	  </p>
+	  </div>
+	  </div>
+	  
+	  <footer>
+	  <div>
+	  © Бутко П.В., Б9122-09.03.04(1), 2024-2025
+	  </div>
+	  <div>
+	  </div>
+	  <div>
+	  ✉ Контакты
+	  </div>
+	  </footer>
+   </body>
+   </html>
